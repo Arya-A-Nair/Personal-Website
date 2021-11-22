@@ -24,7 +24,7 @@
 }
 
 body{
-    background:  #000033;
+    background:  #101820FF;
 }
 .Name{
     font-family: 'Lobster',cursive;
@@ -33,11 +33,13 @@ body{
 .container{
     display:flex;
     flex-wrap:wrap-reverse;
+    
     height:80%;
 }
 .right{
     width:50%;
     display:flex;
+    
     justify-content: flex-end;
 }
 .left{
@@ -56,14 +58,14 @@ body{
     position: relative;
     margin-left: 10%;
     margin-top: 10%;
-    color:yellow
+    color:#FEE715FF;
 }
 .bottom{
     position:fixed;
     height: 10%;
     bottom:0;
     width:100%;
-    background-color:black;
+    background-color:#FEE715FF;
     
 }
 .bottom ul{
@@ -71,12 +73,16 @@ body{
     list-style: none;
 }
 .contact-image{
+    margin-top:10px;
     width: 70px;
     height: 70px;
 }
 .contact{
     display: flex;
     justify-content: space-around;
+}
+.about{
+    font-size:20px;
 }
 
 
