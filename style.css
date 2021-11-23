@@ -4,6 +4,8 @@
     padding: 0;
   }
 
+
+
 .top{
     font-size:30px;
     margin-top: 40px;
@@ -49,7 +51,7 @@ body{
     
 }
 .Face{
-    height: 600px;
+    height: 80%;
     width:auto;
     position:fixed;
     bottom:10%;
