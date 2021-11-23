@@ -51,7 +51,7 @@ body{
 .Face{
     height: 600px;
     width:auto;
-    position:absolute;
+    position:fixed;
     bottom:10%;
     right:10%;
     align-self: bottom;
