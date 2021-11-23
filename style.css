@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Outfit:wght@200&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +6,9 @@
 
 
 @media only screen and (min-width: 980px){
+    .mobile{
+        display: none;
+    }
 .top{
     font-size:30px;
     margin-top: 40px;
@@ -19,6 +22,7 @@
     position: relative;
     margin-left: 10%;
     margin-top: 5%;
+    font-family: 'Outfit', sans-serif;
     color:white;
 }
 .type{
@@ -98,6 +102,9 @@ body{
     {
         display:none;
     }
+    .mobile{
+        width:100%;
+    }
     body{
         background:  #101820FF;
         width: 100%;
@@ -111,6 +118,7 @@ body{
         transition: 0.3s;
         width: 40%;
         background-color: #FEE715FF;
+        display:inline-block;
     }
       
     .card:hover {
@@ -121,9 +129,13 @@ body{
     .text{
         padding: 2px 16px;
     }
+    .text p{
+        margin-top: 20px;
+        font-family: 'Outfit', sans-serif;
+    }
     .Name{
         font-family: 'Lobster',cursive;
-        font-size:40px
+        font-size:40px;
     }
 
 }
