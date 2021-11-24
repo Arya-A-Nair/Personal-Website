@@ -123,6 +123,7 @@ body{
         left:15%;
         top:10%;
         position:absolute;
+        border-radius: 40px;
     }
       
     .card:hover {
