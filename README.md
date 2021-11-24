@@ -1,5 +1,8 @@
 # Personal Website
-This repository contains the code to host my personal website.
+
+This repository hosts my personal website
+This is a responsive website with a single breakpoint at 980px.
+
 
 
 ***
