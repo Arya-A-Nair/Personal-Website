@@ -155,11 +155,11 @@ body{
     .text p{
         margin-top: 20px;
         font-family: 'Outfit', sans-serif;
-        font-size:2.5vw;
+        font-size:2vh;
     }
     .Name{
         font-family: 'Lobster',cursive;
-        font-size:5vw;
+        font-size:7vw;
     }
     .role{
         color:#FEE715FF;
