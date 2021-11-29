@@ -2,6 +2,7 @@
 
 This repository hosts my personal website
 This is a responsive website with a single breakpoint at 980px.
+I plan to add another page to showcase some websites which I would do.
 
 
 
