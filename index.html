@@ -18,8 +18,10 @@
             </div>
 
             <div class="about">
-                Proficient in Python, HTML, CSS, Vanilla JavaScript, C++ and C. I like to talk to people who share the same kind of energy with me on the topic. Contact me if you have an interesting project you would like me to work with you on. 
+                Proficient in Python, HTML, CSS, Vanilla JavaScript, C++ and C. I also use Responsive Web design in my project. I like to talk to people who share the same kind of energy with me on the topic. Contact me if you have an interesting project you would like me to work with you on. 
+                
             </div>
+            <button id="resume">Resume  <span class="arrow">&#8594;</span></button>
             
             <div class="type"> 
                 STUDENT
@@ -43,6 +45,7 @@
                 </div>
                 <p>Proficient in Python, HTML, CSS, Vanilla JavaScript, C++ and C. I like to talk to people who share the same kind of energy with me on the topic. Contact me if you have an interesting project you would like me to work with you on. </p> 
             </div>
+            <a id="resume" href="https://drive.google.com/file/d/1i-Yktw_0ykju4IXOYsIVmd9lzxgE1zdY/view?usp=sharing" target="_blank">Resume</a>
             <div class="contact">
                 <a target="_blank" href="https://wa.me/919920646238?text=Hi+Arya">
                     <img src="https://img.icons8.com/dusk/50/000000/whatsapp.png" class="contact-image">
@@ -87,6 +90,13 @@
                         loop: true
                     };
         var m_typed= new Typed(".m_typed",m_options);
+
+        let resume=document.getElementById("resume");
+        resume.addEventListener("click",resume_display);
+
+        function resume_display(){
+            window.open("Resume.pdf");
+        }
     </script>
 </body>
 </html>
